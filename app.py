@@ -22,7 +22,7 @@ signal.signal(signal.SIGINT, exit_chld)
 
 if __name__ == '__main__':
 
-    processes = cpu_count() - 1
+    processes = cpu_count() 
     print('-' * 20)
     print('Running load on CPU(s)')
     print('Utilizing %d cores' % processes)
